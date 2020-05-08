@@ -1,2 +1,4 @@
 # datatoolfor2pollutionsurvey
-data auto export  tool the second  national pollution  survey
+本软件是广西第二次全国污染源普查用于自动将国家普查软件系统里面的有关报表数据导出的脚本程序和一些格式转换、自动登录的小工具。主要有3类 ：一是对应的污染源报表的查询;二是 一些综合汇总结果的查询和保留并转换到excel;三是自动登录、自动转换以及将归档格式污染源数据下载成excel格式数据并将之自动转换成pdf格式以便归档的一些python小程序和shell脚本。
+软件基于ubuntu trusty  14.04平台，主要工具为火狐和谷歌浏览器、python、shell脚本，json 转换工具 jq。为了不影响服务器性能，采取单线程顺序下载模式 。
+留存以用于归档
